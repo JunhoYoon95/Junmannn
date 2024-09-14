@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   match "/500", to: "system#error", via: :all
 
   # Defines the root path route ("/")
-  root "dashboards#index"
+  root "main#home"
 
   get "/signin", to: "auth#signin"
   get "/signup", to: "auth#signup"
