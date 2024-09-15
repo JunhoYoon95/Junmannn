@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "jquery-ujs": "^1.2.3",
+    "local-time": "^3.0.2",
+    "trix": "^2.1.5"
+  }
+}
